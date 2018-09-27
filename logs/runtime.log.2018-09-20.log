@@ -1,0 +1,164 @@
+2018-09-20 16:43:52.964 [main] INFO  com.hytx.jcxfd.ChapterApplication - Starting ChapterApplication on cuipengbo-PC with PID 3140 (D:\ruanjian\idea\chapter\target\classes started by cuipengbo in D:\ruanjian\idea\chapter)
+2018-09-20 16:43:52.967 [main] INFO  com.hytx.jcxfd.ChapterApplication - No active profile set, falling back to default profiles: default
+2018-09-20 16:43:53.016 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@43c1b556: startup date [Thu Sep 20 16:43:53 CST 2018]; root of context hierarchy
+2018-09-20 16:43:54.160 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$62a5c594] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-20 16:43:54.818 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 1212 (http)
+2018-09-20 16:43:54.832 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-1212"]
+2018-09-20 16:43:54.843 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-09-20 16:43:54.843 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-09-20 16:43:54.852 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\ruanjian\jre1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/ruanjian/jre1.8/bin/server;D:/ruanjian/jre1.8/bin;D:/ruanjian/jre1.8/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\ruanjian\jdk1.8\bin;D:\ruanjian\jdk1.8\jre\bin;D:\ruanjian\apache-maven-3.5.0\bin;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;D:\ruanjian\es\Note\note\;C:\Users\cuipengbo\AppData\Roaming\npm;D:\eclipse-jee-luna-SR2-win32-x86_64\eclipse;;.]
+2018-09-20 16:43:54.976 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-09-20 16:43:54.977 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1961 ms
+2018-09-20 16:43:55.237 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-09-20 16:43:55.238 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet statViewServlet mapped to [/druid/*]
+2018-09-20 16:43:55.239 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet com.hytx.jcxfd.config.DruidStatViewServlet mapped to [/druid/*]
+2018-09-20 16:43:55.242 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-20 16:43:55.242 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-20 16:43:55.242 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-20 16:43:55.243 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-20 16:43:55.243 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2018-09-20 16:43:55.243 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'druidWebStatFilter' to urls: [/*]
+2018-09-20 16:43:56.126 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-20 16:43:56.264 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@43c1b556: startup date [Thu Sep 20 16:43:53 CST 2018]; root of context hierarchy
+2018-09-20 16:43:56.342 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/uploads],methods=[GET]}" onto public java.lang.String com.hytx.jcxfd.controller.FileUploadController.index()
+2018-09-20 16:43:56.344 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/uploads/upload1],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.String> com.hytx.jcxfd.controller.FileUploadController.upload1(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletRequest) throws java.io.IOException
+2018-09-20 16:43:56.346 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/uploads/upload2],methods=[POST]}" onto public java.util.List<java.util.Map<java.lang.String, java.lang.String>> com.hytx.jcxfd.controller.FileUploadController.upload2(org.springframework.web.multipart.MultipartFile[]) throws java.io.IOException
+2018-09-20 16:43:56.348 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/uploads/upload3],methods=[POST]}" onto public void com.hytx.jcxfd.controller.FileUploadController.upload2(java.lang.String) throws java.io.IOException
+2018-09-20 16:43:56.351 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/upload/download]}" onto public java.lang.String com.hytx.jcxfd.controller.UploadDown.downloadFile(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-20 16:43:56.352 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/upload/batch/upload],methods=[POST]}" onto public java.lang.String com.hytx.jcxfd.controller.UploadDown.handleFileUpload(javax.servlet.http.HttpServletRequest)
+2018-09-20 16:43:56.354 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/rabbitMq],methods=[GET]}" onto public void com.hytx.jcxfd.controller.UserController.defaultMessage()
+2018-09-20 16:43:56.355 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/add],methods=[GET]}" onto public int com.hytx.jcxfd.controller.UserController.addUser()
+2018-09-20 16:43:56.356 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/selectAll],methods=[GET]}" onto public java.util.List<com.hytx.jcxfd.model.Attach> com.hytx.jcxfd.controller.UserController.SelectAll()
+2018-09-20 16:43:56.356 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/all],methods=[GET]}" onto public com.github.pagehelper.PageInfo<com.hytx.jcxfd.model.UserDomain> com.hytx.jcxfd.controller.UserController.findAllUser(int,int)
+2018-09-20 16:43:56.358 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-20 16:43:56.359 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-20 16:43:56.398 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-20 16:43:56.399 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-20 16:43:56.535 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2018-09-20 16:43:56.963 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-09-20 16:43:56.964 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'masterDataSource' has been autodetected for JMX exposure
+2018-09-20 16:43:56.964 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'slaveDataSource' has been autodetected for JMX exposure
+2018-09-20 16:43:56.964 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'statFilter' has been autodetected for JMX exposure
+2018-09-20 16:43:56.971 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'rabbitConnectionFactory' has been autodetected for JMX exposure
+2018-09-20 16:43:56.974 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'masterDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=masterDataSource,type=HikariDataSource]
+2018-09-20 16:43:56.977 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'slaveDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=slaveDataSource,type=DruidDataSource]
+2018-09-20 16:43:56.978 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located managed bean 'rabbitConnectionFactory': registering with JMX server as MBean [org.springframework.amqp.rabbit.connection:name=rabbitConnectionFactory,type=CachingConnectionFactory]
+2018-09-20 16:43:56.994 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2018-09-20 16:43:57.019 [main] INFO  o.s.context.support.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+2018-09-20 16:43:57.043 [SimpleAsyncTaskExecutor-1] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+2018-09-20 16:43:58.073 [SimpleAsyncTaskExecutor-1] ERROR o.s.a.r.listener.SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:62)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:476)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:614)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:240)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:1797)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1771)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1752)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:338)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1604)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:963)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:60)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:955)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:907)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:847)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:449)
+	... 9 common frames omitted
+2018-09-20 16:43:58.084 [SimpleAsyncTaskExecutor-1] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+2018-09-20 16:43:59.086 [SimpleAsyncTaskExecutor-1] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+2018-09-20 16:44:00.089 [SimpleAsyncTaskExecutor-1] ERROR o.s.a.r.listener.SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:62)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:476)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:614)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:240)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:1797)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1771)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1752)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:338)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1604)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:963)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:60)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:955)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:907)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:847)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:449)
+	... 9 common frames omitted
+2018-09-20 16:44:00.090 [SimpleAsyncTaskExecutor-1] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+2018-09-20 16:44:01.118 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-1212"]
+2018-09-20 16:44:01.168 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-09-20 16:44:01.186 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 1212 (http) with context path ''
+2018-09-20 16:44:01.189 [main] INFO  com.hytx.jcxfd.ChapterApplication - Started ChapterApplication in 8.621 seconds (JVM running for 9.195)
+2018-09-20 16:45:54.091 [main] INFO  com.hytx.jcxfd.ChapterApplication - Starting ChapterApplication on cuipengbo-PC with PID 4472 (D:\ruanjian\idea\chapter\target\classes started by cuipengbo in D:\ruanjian\idea\chapter)
+2018-09-20 16:45:54.093 [main] INFO  com.hytx.jcxfd.ChapterApplication - No active profile set, falling back to default profiles: default
+2018-09-20 16:45:54.143 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@43c1b556: startup date [Thu Sep 20 16:45:54 CST 2018]; root of context hierarchy
+2018-09-20 16:45:55.278 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$6e21515a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-20 16:45:55.912 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 1212 (http)
+2018-09-20 16:45:55.928 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-1212"]
+2018-09-20 16:45:55.941 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-09-20 16:45:55.941 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-09-20 16:45:55.950 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\ruanjian\jre1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/ruanjian/jre1.8/bin/server;D:/ruanjian/jre1.8/bin;D:/ruanjian/jre1.8/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\ruanjian\jdk1.8\bin;D:\ruanjian\jdk1.8\jre\bin;D:\ruanjian\apache-maven-3.5.0\bin;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;D:\ruanjian\es\Note\note\;C:\Users\cuipengbo\AppData\Roaming\npm;D:\eclipse-jee-luna-SR2-win32-x86_64\eclipse;;.]
+2018-09-20 16:45:56.065 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-09-20 16:45:56.065 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1922 ms
+2018-09-20 16:45:56.299 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-09-20 16:45:56.300 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet statViewServlet mapped to [/druid/*]
+2018-09-20 16:45:56.301 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet com.hytx.jcxfd.config.DruidStatViewServlet mapped to [/druid/*]
+2018-09-20 16:45:56.304 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-20 16:45:56.305 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-20 16:45:56.305 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-20 16:45:56.305 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-20 16:45:56.305 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2018-09-20 16:45:56.306 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'druidWebStatFilter' to urls: [/*]
+2018-09-20 16:45:57.153 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-20 16:45:57.291 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@43c1b556: startup date [Thu Sep 20 16:45:54 CST 2018]; root of context hierarchy
+2018-09-20 16:45:57.363 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/uploads],methods=[GET]}" onto public java.lang.String com.hytx.jcxfd.controller.FileUploadController.index()
+2018-09-20 16:45:57.364 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/uploads/upload1],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.String> com.hytx.jcxfd.controller.FileUploadController.upload1(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletRequest) throws java.io.IOException
+2018-09-20 16:45:57.365 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/uploads/upload2],methods=[POST]}" onto public java.util.List<java.util.Map<java.lang.String, java.lang.String>> com.hytx.jcxfd.controller.FileUploadController.upload2(org.springframework.web.multipart.MultipartFile[]) throws java.io.IOException
+2018-09-20 16:45:57.365 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/uploads/upload3],methods=[POST]}" onto public void com.hytx.jcxfd.controller.FileUploadController.upload2(java.lang.String) throws java.io.IOException
+2018-09-20 16:45:57.367 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/upload/download]}" onto public java.lang.String com.hytx.jcxfd.controller.UploadDown.downloadFile(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-20 16:45:57.367 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/upload/batch/upload],methods=[POST]}" onto public java.lang.String com.hytx.jcxfd.controller.UploadDown.handleFileUpload(javax.servlet.http.HttpServletRequest)
+2018-09-20 16:45:57.368 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/rabbitMq],methods=[GET]}" onto public void com.hytx.jcxfd.controller.UserController.defaultMessage()
+2018-09-20 16:45:57.369 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/add],methods=[GET]}" onto public int com.hytx.jcxfd.controller.UserController.addUser()
+2018-09-20 16:45:57.369 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/selectAll],methods=[GET]}" onto public java.util.List<com.hytx.jcxfd.model.Attach> com.hytx.jcxfd.controller.UserController.SelectAll()
+2018-09-20 16:45:57.369 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/all],methods=[GET]}" onto public com.github.pagehelper.PageInfo<com.hytx.jcxfd.model.UserDomain> com.hytx.jcxfd.controller.UserController.findAllUser(int,int)
+2018-09-20 16:45:57.371 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-20 16:45:57.372 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-20 16:45:57.405 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-20 16:45:57.405 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-20 16:45:57.525 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2018-09-20 16:45:57.968 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-09-20 16:45:57.969 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'masterDataSource' has been autodetected for JMX exposure
+2018-09-20 16:45:57.969 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'slaveDataSource' has been autodetected for JMX exposure
+2018-09-20 16:45:57.970 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'statFilter' has been autodetected for JMX exposure
+2018-09-20 16:45:57.977 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'rabbitConnectionFactory' has been autodetected for JMX exposure
+2018-09-20 16:45:57.980 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'masterDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=masterDataSource,type=HikariDataSource]
+2018-09-20 16:45:57.981 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'slaveDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=slaveDataSource,type=DruidDataSource]
+2018-09-20 16:45:57.982 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located managed bean 'rabbitConnectionFactory': registering with JMX server as MBean [org.springframework.amqp.rabbit.connection:name=rabbitConnectionFactory,type=CachingConnectionFactory]
+2018-09-20 16:45:57.998 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2018-09-20 16:45:58.025 [main] INFO  o.s.context.support.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+2018-09-20 16:45:58.077 [SimpleAsyncTaskExecutor-1] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+2018-09-20 16:45:58.257 [SimpleAsyncTaskExecutor-1] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#31e04b13:0/SimpleConnection@66ebd813 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 63744]
+2018-09-20 16:45:58.336 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-1212"]
+2018-09-20 16:45:58.357 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-09-20 16:45:58.377 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 1212 (http) with context path ''
+2018-09-20 16:45:58.381 [main] INFO  com.hytx.jcxfd.ChapterApplication - Started ChapterApplication in 4.633 seconds (JVM running for 5.175)
